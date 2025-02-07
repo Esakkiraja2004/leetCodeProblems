@@ -3,6 +3,6 @@ matrix.reverse()
 arr = [[0]*len(matrix) for i in range(len(matrix))]
 
 for i in range(len(matrix)):
-    for j in range(len(matrix_two)):
-        arr [i][j], arr[j][i] = matrix [j][i] , matrix[i][j]
-print(arr)
+    for j in range(i+1 ,len(matrix)):
+        matrix [i][j], matrix[j][i] = matrix [j][i] , matrix[i][j]
+print(matrix)
