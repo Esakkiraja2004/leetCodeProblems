@@ -11,7 +11,7 @@ def search (target , arr):
         else:
             return mid
     return -1
-arr = [1,2,3,4,5]
-target = 3
+arr = [4,5,6,7,0,1,2]
+target = 0
 print(search(target,arr))
 
