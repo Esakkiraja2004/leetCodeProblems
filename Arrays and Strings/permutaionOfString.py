@@ -1,4 +1,4 @@
- def checkInclusion(s1, s2):
+def checkInclusion(s1, s2):
         if len(s1) > len(s2):
             return False
 

@@ -1,0 +1,12 @@
+nums1 = [1, 2]
+nums2 = [4, 3]
+
+arr = sorted(nums1 + nums2)  # Merge and sort the arrays
+
+if len(arr) % 2 == 0:
+    m1 = len(arr) // 2 - 1  # First middle index
+    m2 = len(arr) // 2      # Second middle index
+    med = (arr[m1] + arr[m2]) / 2 # Correct median calculation
+else:
+    med = arr[len(arr) // 2]
+print(f"{med:.4f}")
