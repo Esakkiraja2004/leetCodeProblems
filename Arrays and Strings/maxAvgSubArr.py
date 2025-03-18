@@ -1,3 +1,5 @@
+nums = [1,2,3]
+k =4
 n = len(nums)
 curr_sum = sum(nums[:k]) 
 max_avg = float(curr_sum) / k 
