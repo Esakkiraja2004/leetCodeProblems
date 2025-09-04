@@ -11,6 +11,6 @@ while r < len(nums):
         nums[l] = nums[r]
         l += 1
     r += 1
-print(nums)
+print(l)
 
 
